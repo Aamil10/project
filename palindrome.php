@@ -11,9 +11,8 @@
 
     <?php
     if (isset($_POST['submit'])) {
-      $num1 = $_POST['num1'];  // Get the number from the form
-      $reverse = strrev($num1);  // Reverse the number
-
+      $num1 = $_POST['num1'];
+      $reverse = strrev($num1);
       if ($num1 == $reverse) {
         echo "The number is a palindrome.";
       } else {
